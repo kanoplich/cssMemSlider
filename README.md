@@ -1,1 +1,1 @@
-# cssMemSlider
+https://kanoplich.github.io/cssMemSlider/cssMemSlider/index.html
