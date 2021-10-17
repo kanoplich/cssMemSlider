@@ -147,7 +147,6 @@ label {
   border-color: #fff !important;
 }
 
-
 #switch1:checked ~ .wrap .active label:nth-child(1),
 #switch2:checked ~ .wrap .active label:nth-child(2),
 #switch3:checked ~ .wrap .active label:nth-child(3),
