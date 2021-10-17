@@ -68,7 +68,7 @@ article img{
   text-transform: uppercase;
   font-weight: 400;
   font-size: 2vh;
-  margin-top: 5vh;
+  margin: 5vh 0px 0px -8.5vh;
 }
 .active{
   margin-top: 5vh;
@@ -186,4 +186,17 @@ label {
   .header{
     font-size: 3vh;
   }
+  .wrap {
+    flex-wrap: wrap-reverse;
+  }
+  .active{
+    width: 100%;
+  }
+  #switch1:checked ~ .wrap .active label:nth-child(1),
+  #switch2:checked ~ .wrap .active label:nth-child(2),
+  #switch3:checked ~ .wrap .active label:nth-child(3),
+  #switch4:checked ~ .wrap .active label:nth-child(4){
+  background: #bbb;
+  border: 2px solid #18a3dd;
+}
 }
