@@ -36,7 +36,7 @@ body {
 
 .header{
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   font-size: 4vh;
@@ -47,10 +47,13 @@ body {
 }
 .slider {
   position: relative;
-  top: 10vh;
+  top: 5vh;
 }
 .image {
   text-align: center;
+}
+img {
+  border: 1vh solid #00a8e1;
 }
 article img{
   width: 60%;
@@ -68,7 +71,7 @@ article img{
   text-transform: uppercase;
   font-weight: 400;
   font-size: 2vh;
-  margin: 5vh 0px 0px -8.5vh;
+  margin: 5vh 0vh 0vh -8.5vh;
 }
 .active{
   margin-top: 5vh;
@@ -150,7 +153,7 @@ label {
 #switch3:checked ~ .wrap .active label:nth-child(3),
 #switch4:checked ~ .wrap .active label:nth-child(4){
   background: #bbb;
-  border: 5px solid #18a3dd;
+  border: .5vh solid #18a3dd;
 }
 
 .image, 
@@ -197,6 +200,6 @@ label {
   #switch3:checked ~ .wrap .active label:nth-child(3),
   #switch4:checked ~ .wrap .active label:nth-child(4){
   background: #bbb;
-  border: 2px solid #18a3dd;
+  border: .5vh solid #18a3dd;
 }
 }
